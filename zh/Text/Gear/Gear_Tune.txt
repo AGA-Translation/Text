@@ -24,7 +24,7 @@ K.I.S.S.対応ギア一覧=K.I.S.S.compatible gear list
 現状維持=Maintain
 
 
-ギア整備室-ギアチューン=ギア=整備室-ANGear 调整
+ギア整備室-ギアチューン=Gear Maintenance Room-Gear Tune
 
 一定数の素材を納品すると作業精度が上がります=Using some materials improves work accuracy
 納品する素材を選択=Select materials

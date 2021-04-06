@@ -36,12 +36,12 @@ sr:"ダウンロードサイズが約(?<num_i>[0-9]+)MBあります\nインス�
 
 
 --Common Text
-必要数=Req. Qty.
-アニマ=Anima
-ゴールド=Gold
+必要数=需要数量
+アニマ=红水
+ゴールド=金币
 解析でんち=Analysis Battery
 ギアメダル=Gear medal
-スカウトポイント=Scout points
+スカウトポイント=S点
 キャンセル=取消
 決定=确定
 ボトムス=Bottom
@@ -90,7 +90,7 @@ sr:".(?<Quest>.+). \+(?<num2_i>[0-9]+)pt"=""${Quest}" + ${num2_i}pt"
 --Home menu 
 新着エピソード=New episode
 救助要請=救援邀请
-コスチューム=Costume
+コスチューム=服装
 
 -rescue request
 ルーム選択=Room selection
@@ -112,44 +112,44 @@ sr:".(?<Quest>.+). \+(?<num2_i>[0-9]+)pt"=""${Quest}" + ${num2_i}pt"
 sr:"エピソード\n【 "(?<episode>.+)"】\nが解放されました"="Episode\n【"${episode}】\nHas been unlocked"
 
 -Episode 
-エピソード一覧=Episode list
-絆エピソード=Kizuna episode
-キャラエピソード=Chara episode
-履歴書=Resume
+エピソード一覧=剧情一览
+絆エピソード=羁绊故事
+キャラエピソード=人物故事
+履歴書=履历书
 sr="^・★(?<num1_i>[0-9]+) (?<name>.+)Lv.(?<num2_i>[0-9]+)$"="・★${num1_i} ${name} Lv.${num2_i}"
 
 -mission menu from home 
-特別任務=Special mission
+特別任務=特别任务
 
 --Menu
-称号=Title
-サポーター=Supporter
-隊長の誕生日=Captain's birthday
-累計ログイン日数=Login Day
-ボーナス履歴=Login Bonus history
+称号=称号
+サポーター=助战
+隊長の誕生日=队长的生日
+累計ログイン日数=累计登录天数
+ボーナス履歴=登录小人图
 
-アイテム=Item
-オプション=Option
-ヘルプ=Help
-実績=Performance
-フレンド=Friends
-受取箱=Inbox
-ショップ=Shop
-お知らせ=Notice
-メニュー=Menu
-アクセサリ=Accessories
-素材=Material
+アイテム=背包
+オプション=设置
+ヘルプ=帮助
+実績=实绩
+フレンド=好友
+受取箱=邮件箱
+ショップ=兑换商店
+お知らせ=通知
+メニュー=菜单
+アクセサリ=饰品
+素材=素材
 
-設定=Configuration
-その他=Misc.
+設定=设置
+その他=其他
 
 -change title
 表示する称号を選択してください=Select title to display
-称号変更=Title
+称号変更=称号变更
 
 -Rename
-※最大8文字=* Maximum 8 characters
-名前変更=Rename
+※最大8文字=* 最大八个字符
+名前変更=修改名称
 
 -Change Description
 ※最大40文字=* Maximum 40 characters
@@ -162,8 +162,8 @@ sr="^・★(?<num1_i>[0-9]+) (?<name>.+)Lv.(?<num2_i>[0-9]+)$"="・★${num1_i} 
 sr:"サポート回数 : (?<num1_i>[0-9]+)\n獲得ゴールド : (?<num2_i>[0-9]+)"="Support count: ${num1_i} \nGold earned: ${num2_i}"
 
 -Gacha
-詳細=Detail
-交換品詳細=Exch. details
+詳細=详细
+交換品詳細=物品详细
 提供割合=Rate
 アクセサリーチケットについて=About accessory tickets
 スタープロムナード=Star promenade
@@ -341,11 +341,11 @@ sr:"任務時間：残り(?<num_i>[0-9]+)秒"=Mission time: ${num_i} seconds rem
 -Sorting
 ▼降順=▼ 降序
 ▲昇順=▲ 升序
-ソート=Sort
-並び替え=Sort Order
+ソート=筛选项
+並び替え=筛选菜单
 
 取得日時=何时获得
-ファン増加=粉丝增加
+ファン増加=粉丝数量
 信頼度=信赖度
 スピード=速度
 防御力=防御力
@@ -356,17 +356,17 @@ sr:"任務時間：残り(?<num_i>[0-9]+)秒"=Mission time: ${num_i} seconds rem
 任務=任务
 
 属性=属性
-攻撃力=Atk. Power
-レアリティ=Rarity
-ギア種別=Gear type
+攻撃力=攻击力
+レアリティ=稀有度
+ギア種別=装备种类
 
 -Filter
-フィルタ=Filter
-フィルター=Filters
-特殊ギア=Special G.
-通常ギア=Normal G.
-進化可否=Evolve G.
-ロック中=Locked
+フィルタ=筛选
+フィルター=筛选
+特殊ギア=特殊装备
+通常ギア=普通装备
+進化可否=能否进化
+ロック中=已锁定
 
 
 --Mission
@@ -379,7 +379,7 @@ sr:"任務時間：残り(?<num_i>[0-9]+)秒"=Mission time: ${num_i} seconds rem
 一括で今すぐ充電=使用电池跳过等待
 まで= 
 充電完了= 充电结束
-※所持数が限界に達しているため、新たなシェルを入手できません=* Shell storage full, new drops restricted
+※所持数が限界に達しているため、新たなシェルを入手できません=* 贝壳数量达到上限，将无法活动新的贝壳
 所持数=拥有数
 解析依頼=解析
 一括売却=一键卖光
@@ -399,10 +399,10 @@ sr:"(?<num1_i>[0-9]+)個のシェルを売却し\n(?<num2_i>[0-9]+)ゴールド�
 カラット=钻石
 でんち=电池
 
-ロック=Lock
-ロック解除= Unlock
-ロックしました=Locked
-ロックを解除しました=Unlocked
+ロック=点击锁定
+ロック解除= 点击解锁
+ロックしました=已锁定
+ロックを解除しました=已解锁
 シェルを所持していません=没有贝壳
 
 -regex
@@ -461,12 +461,19 @@ sr:"^すでに(?<actress>.+)が装備しています\n付け替えてよろし�
 
 
 --Evolution 
-ギア整備室-進化=Gear Maintenance Room-Evolution
-進化するギアを選択してください=Choose an evolvable gear
-装備中のキャラはいません=No character is selected
-決 定=Select
-進化ツリー=Evolution tree
-アップグレードする=Upgrade
+ギア整備室-進化=整备室-进化
+ギア整備室-合成=整备室-合成
+ギア整備室-売却=整备室-出售
+カスタムキットを装着するギアを選択してください=请选择安装自定义插件的装备
+ベースにするギアを選択してください=请选择要作为底物(被强化的装备)
+素材にするギアを選択してください=请选择要作为材料的装备
+獲得：=获得：
+
+進化するギアを選択してください=请选择可进化的装备
+装備中のキャラはいません=没有装备被选中
+決 定=选定
+進化ツリー=进化路线
+アップグレードする=手机
 全体的に調整をほどこしたアップグレード版\nレベル上限が引き上げられている=Upgraded level cap have been raised with overall adjustments
 本来保持されている機能を最大限に発揮するために\n機能拡張と再調整が行われたエンハンスモデル\n（この進化でレベル上限は変化しません）=Enhanced model that has been expanded and re-adjusted to maximize the originally retained function (the level upper limit does not change with this evolution)
 アレンジする=Arrange
@@ -504,14 +511,14 @@ sr:"^すでに(?<actress>.+)が装備しています\n付け替えてよろし�
 スキル名スキル名=Skill name skill name
 
 -Gear Maintenance Room
-ギア所持数=Gear Qty.
-ボトムス=Bottom
-トップス=Top
-クロス=Close
-ショット=Shot
-装備中=Equipped
+ギア所持数=装备数量
+ボトムス=腿部装备
+トップス=手部装备
+クロス=近战武器
+ショット=射击武器
+装備中=装备中
 
-ロックされているため\n選択できません=Cannot be selected \n because it's locked 
+ロックされているため\n選択できません=无法选择 \n 因为已经被锁定 
 
 -frame expansion
 枠拡張する=+Slot
@@ -528,15 +535,15 @@ sr:"選択中のギアをまとめて売却しますか？\n獲得：(?<num1_i>.
 
 -- Gacha UI
 スカウト=Scout
-服袋＆イベ=Clothes bag & Event
-服袋セレクト=Clothes bag select
-服袋コレクション=Clothing bag collection
-コスチューム交換=Costume exchange
-アクセサリー=Accessories
+服袋＆イベ=常驻服装以及活动服装
+服袋セレクト=服装袋选集
+服袋コレクション=服装袋合集
+コスチューム交換=服装交换
+アクセサリー=饰品
 
 -- Buy UI
 おまけ=Bonus
-購入=Buy
+購入=买
 DMMポイント=DMM points
 
 おまけのカラットとアイテムは無償アイテムとなります=Bonus carats and items will be free items
