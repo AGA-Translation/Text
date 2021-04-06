@@ -566,231 +566,232 @@ DMMポイント=DMM points
 
 ---Setting UI
 
-低=Low
-最適=Med
-高=High
+低=低
+最適=最佳
+高=高
 
 -Sound Tabs
-サウンド関連=Sound related
+サウンド関連=音响相关
 
-ボイス音量=Voice volume
-SE音量=SE volume
-BGM音量=BGM volume
+ボイス音量=语音音量
+SE音量=音效音量
+BGM音量=音乐音量
 
 
 -Graphic Tabs
-グラフィック関連=Graphic related
-フルスクリーン（Alt+Enter）=Full screen (Alt + Enter)
-解像度=Resolution
-アンチエイリアス-ホーム=Antialiasing-Home
-アンチエイリアス-バトル=Antialiasing-Battle
-アンチエイリアス-マルチ=Antialiasing-Multi
-ポストフィルター=Post-Processing Filter
+グラフィック関連=显示相关
+フルスクリーン（Alt+Enter）=全屏 (Alt + Enter)
+解像度=分辨率
+アンチエイリアス-ホーム=房间画面抗锯齿
+アンチエイリアス-バトル=战斗画面抗锯齿
+アンチエイリアス-マルチ=团队画面抗锯齿
+ポストフィルター=画面后处理
 
 -Battle Tabs
-バトル関連=Battle related
+バトル関連=战斗相关
 
-ボタン配置設定=Button layout setting
-各持ち手は「ターゲット切り替えボタン」が\n「1⇒下部」/「2⇒上部」に変更されます\n「カスタム」を選択すると\nボタン配置が自由にカスタマイズ出来ます=L ⇒ Left Hand, R ⇒ Right Hand.\n\nTarget Switch Button placement : \n"1⇒Bottom" / "2⇒Top" 
-右手1=R 1
-右手2=R 2
-左手1=L 1
-左手2=L 2
-カスタム1=Custom 1
-カスタム2=Custom 2
-カスタム3=Custom 3
-カスタム4=Custom 4
+ボタン配置設定=键位设定
+各持ち手は「ターゲット切り替えボタン」が\n「1⇒下部」/「2⇒上部」に変更されます\n「カスタム」を選択すると\nボタン配置が自由にカスタマイズ出来ます=惯用手一侧所设置的【目标切换按键】\n【1：上方】【2：下方】的方式排列\n选择【自定义】时可自由设定
+右手1=右手1
+右手2=右手2
+左手2=左手2
+左手2=左手2
+カスタム1=自定义1
+カスタム2=自定义2
+カスタム3=自定义3
+カスタム4=自定义4
 
-カメラ距離=Camera distance
-遠=Far
-中=Med
-近=Near
+カメラ距離=视角距离
+遠=远
+中=中
+近=近
 
-セミオート操作=Semi-auto operation
-セミオート時のターゲット自由変更機能=Free switch target function\nduring semi-auto
-オート近接攻撃モード=Auto melee attack mode
-押した敵にターゲットを切り替える=Switch target by clicking on enemy
+セミオート操作=半自动模式
+セミオート時のターゲット自由変更機能=半自动模式下自由切换目标
+オート近接攻撃モード=自动近战模式
+押した敵にターゲットを切り替える=点击敌人以切换目标
 
-ダメージ表示設定=Damage display setting
-全て ：自/他プレイヤーを表示\n一部 ：自プレイヤーのみを表示\n非表示：自/他プレイヤーを非表示=All: Show own / other player \nPart: Show only own player \nHide: Hide own / other player
+ダメージ表示設定=伤害显示设定
+全て ：自/他プレイヤーを表示\n一部 ：自プレイヤーのみを表示\n非表示：自/他プレイヤーを非表示=全部 ：显示自己/其他玩家\n部分 ：只显示自己\n隐藏 ：隐藏自己/其他玩家
 
-全て=All
-一部=Part
-非表示=Hide
+全て=全部
+一部=部分
+非表示=隐藏
 
 
-移動操作感度=Move operation sensitivity
-バトルボタンの反応速度向上=Improved reaction speed of battle buttons
-バトル一時停止中のカメラモード有効化=Enable camera mode in battle
+移動操作感度=移动操作灵敏度
+バトルボタンの反応速度向上=提升战斗时按钮的反应速度
+バトル一時停止中のカメラモード有効化=启用战斗暂停时的摄像模式
 
 
 -Home Tabs
-ホーム関連=Home related
-ホーム画面に表示するアクトレス数=       Number of actresses \ndisplayed on the home screen
-ホーム画面に表示するアクトレスを\nチーム１のメンバーと同期する=Synchronize the actress displayed \non the home screen with the members \nof Team 1
-字幕表示=Subtitle display
+ホーム関連=主界面相关
+ホーム画面に表示するアクトレス数=房间画面的Actress人数
+ホーム画面に表示するアクトレスを\nチーム１のメンバーと同期する=房间画面的Actress\n与队伍1同步
+字幕表示=显示字幕
 
 -Scenario Tabs
-シナリオ関連=Scenario related
-AUTOの進行速度=AUTO progress speed
-速い=Fast
-普通=Med
-遅い=Slow
+シナリオ関連=剧情相关
+AUTOの進行速度=自动播放速度
+速い=快速
+普通=普通
+遅い=慢速
 
 -Random Equip Tabs
-おまかせ装備関連=Random equipment related
-対象キャラ=Target character
-個別=Single
-チーム=Team
-装備中のギアを検索に含める=Include equipped gears in the search
-確認表示=Confirmation display
+おまかせ装備関連=自动装备相关
+対象キャラ=目标角色
+個別=单人
+チーム=队伍
+装備中のギアを検索に含める=选择已被装备的装备
+確認表示=开启确认提示
 
 -Window Tabs
-ウィンドウ関連=Window related
-スカウトポイント獲得簡易表示=Simplify Scout points acquisition display
-報酬獲得簡易表示=Simplify Rewards display
-ゴールド/アニマ所持上限警告簡易表示=Simplify Gold/Anima limit warning display
-シェル所持上限警告簡易表示=Simplify Shell limit warning display
+ウィンドウ関連=窗口相关
+スカウトポイント獲得簡易表示=简化S点显示
+報酬獲得簡易表示=简化报酬显示
+ゴールド/アニマ所持上限警告簡易表示=简化金币/Anima上限警告显示
+シェル所持上限警告簡易表示=简化贝壳上限显示
 
 
 -Gamepad Tab
-ゲームパッド関連=Gamepad related
-アナログスティックの感度=Analog stick sensitivity
+ゲームパッド関連=手柄相关
+アナログスティックの感度=模拟摇杆灵敏度
 軸の遊び=Axis play
-決定ボタンの位置を反転=Invert the position of the confirm button
-OFF：Aボタンで決定\nON：Bボタンで決定=OFF: Confirm by the A button \nON: Confirm by the B button
-仮想カーソルの自動非表示=Auto hide virtual cursor
-仮想カーソルの感度=Virtual cursor sensitivity
-仮想カーソルの移動速度=Virtual cursor\nNormal movement speed
-仮想カーソルの高速移動速度=Virtual cursor\nFast movement speed
+決定ボタンの位置を反転=更改确定按键
+OFF：Aボタンで決定\nON：Bボタンで決定=OFF: 按A键确定 \nON: 按B键确定
+仮想カーソルの自動非表示=不显示模拟光标
+仮想カーソルの感度=模拟
+仮想カーソルの移動速度=模拟光标\移动速度
+仮想カーソルの高速移動速度=模拟光标\高速移动速度
 
 -Experimental Tab
-実験的機能=Experimental function
-バトル操作時のセミオートとマニュアルを統合=Integrated semi-auto and manual for \nbattle operation
-<color%3Dred>※セミオート操作設定無効</color>=<color%3Dred>* Semi-auto operation setting disabled</color>
-リフレッシュレート制限解除=Unlock Refresh rate
-タイトル画面のみ消音=Mute Title Screen
-ホームのカメラ操作を反転させる=Invert Home Camera Control
-キーバインド=Key binding
-ダークモード=Dark mode
+実験的機能=实验功能
+バトル操作時のセミオートとマニュアルを統合=结合半自动与手动操作
+<color%3Dred>※セミオート操作設定無効</color>=<color%3Dred>* 半自动模式设定将无效</color>
+リフレッシュレート制限解除=解除刷新率限制
+タイトル画面のみ消音=标题界面静音
+ホームのカメラ操作を反転させる=反转主界面的镜头操作
+キーバインド=按键绑定
+ダークモード=夜间模式
 
 -Keybinding
 
 移動=Move
-この項目を変更するとキーボードの\nキーバインド設定が変更されます。=Changing this item will change \nthe keyboard key binding settings.
-移動モード=Move mode
-ターゲット切替：左=Switch target: left
-ターゲット切替：右=Switch target: right
-ギアスキル：トップス=Gear skill: Top
-ギアスキル：ボトムス=Gear skill: Bottom
-画面内ターゲット切替=In-screen target switch
-メンバー交代2=Member change 2
-メンバー交代1=Member change 1
-サポーターコール=Supporter call
-攻撃：クロスギア=Attack: Close Gear
-攻撃：ショットギア=Attack: Shot gear
-通常移動設定=Default movement setting
-低速=Low speed
-高速=High speed
-低速移動=Slow move
-高速移動=Fast move
-このボタンを押しながら移動を行うと\nブースト消費をしない通常の移動を行います\n\n=If you move while pressing this button, \nyou will perform a normal move without boost consumption\n\n
-このボタンを押しながら移動を行うと\nブースト消費をして高速の移動を行います\n\n=If you move while pressing this button, \nit will do boost consumption and you will move at high speed\n\n
-キーバインド設定を保存しました=Saved key binding settings
+この項目を変更するとキーボードの\nキーバインド設定が変更されます。=更改此项将改变键盘的 \n按键绑定.
+移動モード=移动模式
+ターゲット切替：左=切换目标: 左
+ターゲット切替：右=切换目标: 右
+ギアスキル：トップス=Gear技能: 手部
+ギアスキル：ボトムス=Gear技能: 腿部
+画面内ターゲット切替=画面内目标切换
+メンバー交代2=交换队员2
+メンバー交代1=交换队员1
+サポーターコール=呼叫支援
+攻撃：クロスギア=攻击：近战Gear
+攻撃：ショットギア=攻击：射击Gear
+通常移動設定=通常移动设定
+低速=低俗
+高速=高速
+低速移動=低俗移动
+高速移動=高速移动
+このボタンを押しながら移動を行うと\nブースト消費をしない通常の移動を行います\n\n=按住此按键移动时, \n将进行不消耗推进槽的低速移动\n\n
+このボタンを押しながら移動を行うと\nブースト消費をして高速の移動を行います\n\n=按住此按键移动时, \n将进行消耗推进槽的高速移动\n\n
+キーバインド設定を保存しました=保存按键绑定设置
 
 
-ゲームパッド=Game pad
-キーボード=keyboard
+ゲームパッド=手柄
+キーボード=键盘
 
-割当解除=Unbind
-設定するキーを入力してください=Enter the key to set
-キーバインドを初期状態に戻しますか？=Do you want to return the key bindings to the initial state?
-入力したキー：=Entered key:
-キーが重複しています=Key already used
-sr:"既に【(?<key1>.+)】で使用されています\n【(?<key2>.+)】を解除しますか？"= Key already used in 【${key1}】\nDo you want to unbind 【${key2}】 ?
+割当解除=解除绑定
+設定するキーを入力してください=请按下按键以设定
+キーバインドを初期状態に戻しますか？=确认要初始化按键设置吗?
+入力したキー：=输入的按键:
+キーが重複しています=此按键已被占用
+sr:"既に【(?<key1>.+)】で使用されています\n【(?<key2>.+)】を解除しますか？"= 此按键已被 【${key1}】占用\n确定要解除 【${key2}】的绑定吗 ?
 
 -Misc Tab
-使いすぎストッパー=Overusage stopper
-ご家族安心設定=Family security setting
-画面押下時エフェクト表示=Effect display when the screen is pressed
-ゲームパッド接続時の仮想カーソル有効=Enable virtual cursor when \nconnecting to a gamepad
-起動時のフルインストール確認=Full installation confirmation at startup
+使いすぎストッパー=防沉迷设置
+ご家族安心設定=家长监管设置
+画面押下時エフェクト表示=显示点击特效
+ゲームパッド接続時の仮想カーソル有効=连接手柄时虚拟按键有效
+起動時のフルインストール確認=启动时确认是否安装全部数据
 
 -Buttons
-データインストール=Data installation
-引き継ぎIDとパスワードを登録=Register takeover ID and password
-タイトルに戻る=Return to title
+データインストール=安装数据
+引き継ぎIDとパスワードを登録=生成引继码和密码
+タイトルに戻る=回到标题界面
 
 
-タイトルに戻りますか？=Do you want to go back to the title?
+タイトルに戻りますか？=是否返回标题界面？
 
-オプション設定を保存しました=Option settings saved
+オプション設定を保存しました=保存设置
 
 
 -- control layout
-保存=Save
-初期化=Default
-バトル画面カスタマイズ=Battle screen customization
-HPゲージ=HP gauge
-ボトムススキルボタン=Bottom's skill button
-SPスキルボタン=SP skill button
-トップススキルボタン=Top's skill button
-カメラモード=Camera mode
-メンバー交代ボタン1=Member change button 1
-メンバー交代ボタン2=Member change button 2
-他プレイヤー3ステータス=Other player 3 status
-他プレイヤー2ステータス=Other player 2 status
-他プレイヤー1ステータス=Other player 1 status
-サポーターボタン=Supporter button
-近接攻撃ボタン=Melee attack button
-ターゲット切り替えボタン=Target switch button
-変更を保存しますか？=Do you want to save your changes?
-ボタン配置を初期状態に戻しますか？=Do you want to return the button layout to the initial state?
+保存=保存
+初期化=初始化
+バトル画面カスタマイズ=战斗界面自定义
+HPゲージ=HP 槽
+ボトムススキルボタン=腿部Gear技能按键
+SPスキルボタン=SP技能按键
+トップススキルボタン=手部Gear技能按键
+カメラモード=摄影模式
+メンバー交代ボタン1=交换队员按键1
+メンバー交代ボタン2=交换队员按键2
+他プレイヤー3ステータス=队友数据3
+他プレイヤー2ステータス=队友数据2
+他プレイヤー1ステータス=队友数据1
+サポーターボタン=呼叫支援按键
+近接攻撃ボタン=近战攻击按键
+ターゲット切り替えボタン=目标切换按钮
+変更を保存しますか？=确定要保存更改吗?
+ボタン配置を初期状態に戻しますか？=确定要初始化按键设置吗?
 
 -- Camera layout
 
 コンティニュー=Continue
 カーソルキー＝カメラ移動\nShift/Ctrl＝ズームイン/アウト=Cursor key %3D Move camera  Shift/Ctrl %3D zoom in/out
 
-明るさ・コントラスト=Brightness / Contrast
-明るさ=Brightness
-コントラスト=Contrast
-ガンマ補正=Gamma \n      correction
+明るさ・コントラスト=明度 / 对比度
+明るさ=明度
+コントラスト=对比度
+ガンマ補正=γ修正
 
-色調変換=Color tone conversion
-全体=General
-明るい所=Bright
-中間=Mid
-暗い所=Dark
+色調変換=色调变换
+全体=全部
+明るい所=明处
+中間=适中处
+暗い所=暗处
 
-ブルーム=Bloom
-強さ=Strength
-ブラー=Blur
-シャープフィルタ=Sharp filter
-しきい値=Threshold
+ブルーム=发光
+強さ=强度
+ブラー=模糊
+シャープフィルタ=锐化
+しきい値=阈值
 
-ビネット=Vignette
-色収差=Chromatic\n   Aberration
-サイズ=Size
-
-
-比較（明）=Comparison (bright)
-比較（暗）=Comparison (dark)
-フィルム粒子=Film grain
-カメラ傾斜=Camera tilt
-
-アクトレスの無敵エフェクト=Actress invincible effect
-内部解像度=Internal\n   resolution
-
-解像度が巨大なため、フィルターは無効になります=Filter is disabled due to huge resolution
+ビネット=昏影
+色収差=色差
+サイズ=尺寸
 
 
-スクリ―ンショットを作成中…=Taking screenshots ...
+比較（明）=对比 (亮)
+比較（暗）=对比 (暗)
+フィルム粒子=电影粒子
+カメラ傾斜=相机倾斜
 
-中止する=Abort
+アクトレスの無敵エフェクト=Actress无敌特效
+内部解像度=图片分辨率
 
-ファイルサイズ=File size
-スクリーンショットを保存しました=Screenshot Saved
+解像度が巨大なため、フィルターは無効になります=由于分辨率过高，过滤器被禁用
+
+
+スクリ―ンショットを作成中…=截图保存中...
+
+中止する=中止
+
+ファイルサイズ=文件大小
+スクリーンショットを保存しました=截图已保存
+
 
 -- Account 
 引き継ぎID入力=Input takeover ID
