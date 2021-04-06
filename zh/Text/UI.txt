@@ -58,7 +58,7 @@ sr:"^【(?<actress>[^【】]+) 専用】(?<after>[^【】]+)"="[专用 ${actress
 時間=小时
 日=天
 分=分钟
-専用=专用22
+専用=专用
 
 --Days Left for events
 sr:"あと (?<num_i>[0-9]+)(?<time>.+)"="${num_i} ${time} 后结束"
@@ -216,17 +216,17 @@ sr:"スカウトカードGETまで\n残り(?<num_i>[0-9]+)ポイント"=${num_i}
 1日目=Day 1
 
 --Shop
-必要=Need
-在庫=Qty.
-無制限=∞
-交換する=Exchange
-まとめて交換=Bulk Exchange
-※所持数が足りません=* Not enough 
-既に所持しています=Already Received
-ギア進化素材=Gear evolution material
+必要=需要
+在庫=库存
+無制限=无限制
+交換する=交换
+まとめて交換=全部交换
+※所持数が足りません=* 所持数不足
+既に所持しています=已经换过
+ギア進化素材=装备进化素材
 
-交換確認=Exchange confirmation
-ギフトークン=Gift token
+交換確認=交换确认
+ギフトークン=礼物口令
 sr:"(?<name1>.[^0-9]+)(?<num1_i>[0-9]+)個消費して\n(?<name2>.+)(?<num2_i>[0-9]+)個交換します"=Use ${num1_i} ${name1} and\n exchange for ${num2_i} [${name2}]
 
 
@@ -274,8 +274,8 @@ ID検索のみ=ID only
 スタンプ選択中=Selecting Stamp
 シェル解析中=Under shell analysis
 キャラ設定中=Under Chara Setting
-ルームを解散しますか？=Are you sure you want to disband the room?
-ルームを解散しました=Room disbanded
+ルームを解散しますか？=你确定要解散房间吗?
+ルームを解散しました=房间解散
 画面をタップすると再接続します=Tap the screen to reconnect
 
 
@@ -283,8 +283,8 @@ ID検索のみ=ID only
 隊長たちに準備完了を呼びかけました=Requesting all the captain to be ready
 募集中のルームが見つかりませんでした=No rooms were found for recruitment
 ルームが見つかりません=Room not found
-ルームから退室しますか？=Are you sure you want to leave the room?
-ルームから退室しました=Room left.
+ルームから退室しますか？=你确定要离开房间吗?
+ルームから退室しました=离开房间.
 救援要請中=Requesting Assistance
 確認中=Checking
 リザルト中=In result screen
@@ -375,7 +375,7 @@ sr:"任務時間：残り(?<num_i>[0-9]+)秒"=Mission time: ${num_i} seconds rem
 
 
 --AnalyzeUI
-でんち所持数=Qty.
+でんち所持数=拥有电池数量
 一括で今すぐ充電=使用电池跳过等待
 まで= 
 充電完了= 充电结束
@@ -388,22 +388,22 @@ sr:"任務時間：残り(?<num_i>[0-9]+)秒"=Mission time: ${num_i} seconds rem
 あと=还有
 今すぐ充電=充电CD中
 シェル解析結果=贝壳解析结果
-sr:"(?<num1_i>[0-9]+)個のシェルを売却し\n(?<num2_i>[0-9]+)ゴールドを入手しました"="Sold ${num1_i} shells for ${num2_i} gold"
-売却できるまで= Sell unlocked
+sr:"(?<num1_i>[0-9]+)個のシェルを売却し\n(?<num2_i>[0-9]+)ゴールドを入手しました"="卖掉 ${num1_i} 贝壳 获得 ${num2_i} 金币"
+売却できるまで= 冷却结束
 
-全てのシェルを一括で売却します\nよろしいですか？\n※30分経過するまで、次回の売却ができません=Are you sure you want to sell all shells at once? \n* The next sale cannot be done\nuntil 30 minutes have passed.
+全てのシェルを一括で売却します\nよろしいですか？\n※30分経過するまで、次回の売却ができません=你想要一次性卖掉所有贝壳吗? \n* 下一次卖掉所有贝壳\n将在 30 分钟后结束CD.
 
-シェルを一括売却する=Bulk Sell Shells
+シェルを一括売却する=确认卖掉所有贝壳
 
-確認=Verification
-カラット=Carat
-でんち=Battery
+確認=确认
+カラット=钻石
+でんち=电池
 
 ロック=Lock
 ロック解除= Unlock
 ロックしました=Locked
 ロックを解除しました=Unlocked
-シェルを所持していません=No Shell
+シェルを所持していません=没有贝壳
 
 -regex
 sr:"^(?<num_i>[0-9]+)時間"="${num_i}小时"
@@ -413,42 +413,42 @@ sr:"^(?<num_i>[0-9]+)分"="${num_i}分钟"
 
 sr:"^【(?<num_i>[0-9]+)分】(?<after>.+)"="【<color%3D#e24856>${num_i}</color> 分钟】${after}"
 
-sr:"^残り充電時間は合計で\nあと (?<num1_i>[0-9]+)分 です\n\n<color%3D#e24856>(?<num2_i>[0-9]+)</color>カラットまたは解析でんち<color%3D#ff0000>(?<num3_i>[0-9]+)</color>個を\n消費して、依頼できるようにしますか？\n（所持カラット数：(?<num5_i>[0-9]+)　所持でんち数：(?<num6_i>[0-9]+)）"=${num1_i} 剩余充电时间累计\n\nUse <color%3D#ff0000>${num2_i}</color> Carats or <color%3D#ff0000>${num3_i}</color> Battery\nWould you like to pay and request it? \n(Carats Qty: ${num5_i}, Battery Qty: ${num6_i})
-sr:"^残り充電時間は合計で\nあと (?<num1_i>[0-9]+)分 です\n\n<color%3D#ff0000>(?<num2_i>[0-9]+)</color>カラットまたは解析でんち<color%3D#ff0000>(?<num3_i>[0-9]+)</color>個を\n消費して、依頼できるようにしますか？\n（所持カラット数：(?<num5_i>[0-9]+)　所持でんち数：(?<num6_i>[0-9]+)）"=${num1_i} minutes total charging time left\n\nUse <color%3D#ff0000>${num2_i}</color> Carats or <color%3D#ff0000>${num3_i}</color> Battery\nWould you like to pay and request it? \n(Carats Qty: ${num5_i}, Battery Qty: ${num6_i})
-sr:"^獲得 (?<num_i>[0-9]+) ゴールド"="Earn ${num_i} Gold"
-sr:"^解析でんちを(?<num_i>[0-9,]+)個消費して\n解析依頼できるようになりました"="Charged analysis slot\nby using <color%3D#ff0000>${num_i}</color> battery\nNow you can now request analysis again"
-sr:"^一括解析したので充電にかかる時間が\n<color%3D#3f58d9ff>(?<num_i>[0-9,]+)%</color>短縮されました"="Bulk Analyzed\nCharge time decreased by <color%3D#3f58d9ff>${num_i}%</color>"
+sr:"^残り充電時間は合計で\nあと (?<num1_i>[0-9]+)分 です\n\n<color%3D#e24856>(?<num2_i>[0-9]+)</color>カラットまたは解析でんち<color%3D#ff0000>(?<num3_i>[0-9]+)</color>個を\n消費して、依頼できるようにしますか？\n（所持カラット数：(?<num5_i>[0-9]+)　所持でんち数：(?<num6_i>[0-9]+)）"=${num1_i} 剩余充电时间累计\n\n使用 <color%3D#ff0000>${num2_i}</color> 钻石 or <color%3D#ff0000>${num3_i}</color> 电池\n你打算使用和消费吗? \n(钻石剩余: ${num5_i}, 电池剩余: ${num6_i})
+sr:"^残り充電時間は合計で\nあと (?<num1_i>[0-9]+)分 です\n\n<color%3D#ff0000>(?<num2_i>[0-9]+)</color>カラットまたは解析でんち<color%3D#ff0000>(?<num3_i>[0-9]+)</color>個を\n消費して、依頼できるようにしますか？\n（所持カラット数：(?<num5_i>[0-9]+)　所持でんち数：(?<num6_i>[0-9]+)）"=${num1_i} 分钟后冷却结束\n\nUse <color%3D#ff0000>${num2_i}</color> Carats or <color%3D#ff0000>${num3_i}</color> Battery\nWould you like to pay and request it? \n(钻石剩余: ${num5_i}, 电池剩余: ${num6_i})
+sr:"^獲得 (?<num_i>[0-9]+) ゴールド"="获得 ${num_i} 金币"
+sr:"^解析でんちを(?<num_i>[0-9,]+)個消費して\n解析依頼できるようになりました"="跳过冷却CD\n使用 <color%3D#ff0000>${num_i}</color> 电池\n你现在可以重新进行煮贝"
+sr:"^一括解析したので充電にかかる時間が\n<color%3D#3f58d9ff>(?<num_i>[0-9,]+)%</color>短縮されました"="煮贝完成\n节省充电时间大约 <color%3D#3f58d9ff>${num_i}%</color>"
 
 --Team Management Menu
-キャラ一覧=Character Select
-ギア整備室= Gear M.Room
-チーム管理=Team Management
-属性値=Attr.
-属性値：=Attr:
-上限解放=Limit Brk.
+キャラ一覧=角色一览
+ギア整備室= 整备室
+チーム管理=队伍管理
+属性値=属性值
+属性値：=属性值:
+上限解放=上限解放
 所属数=Aff.
-キャパ=Cap.
+キャパ=装备占用
 
-強化=S+
+強化=S强化
 まで強化=Level
-強化開始=Strengthen
-強化完了=Strengthening completed
+強化開始=开始强化
+強化完了=强化完成
 これ以上強化できません=Can't be enhanced any more
 得意ギア：=Main Gear:
 得意属性：=Main Attr:
 装備中のギア/コスチューム=Gear / Costume equipped
-SPスキル=SP skill
+SPスキル=SP 技能
 SPゲージ=SP gauge
-ギアスキル=Gear skills
-パッシブスキル=Passive skills
-回数：=Count:
-回数=Count  
-スキル=Skill
-変更=Change
-スキル詳細=Skill details
-進化=Evo
-得意属性=Strong attribute
-得意=Good at
+ギアスキル=装备技能
+パッシブスキル=被动技能
+回数：=可用次数 :
+回数=可用次数  
+スキル=技能
+変更=变更
+スキル詳細=技能详情
+進化=进化
+得意属性=擅长 属性
+得意=擅长
 
 既に他のキャラクターが使用中です=Already used by another character
 sr:"^すでに(?<actress>.+)が装備しています\n付け替えてよろしいですか？"="It's already equipped on\n[${actress}]\nAre you sure you\nwant to change it?"
@@ -473,24 +473,24 @@ sr:"^すでに(?<actress>.+)が装備しています\n付け替えてよろし�
 ※LVが不足しているため進化できません=* Cannot evolve due to lack of level
 
 
-火力=Firepower
-射程=Range
-連射性能=Rapid fire
-必要素材=Required materials
-速度性能=Speed ​​performance
-最大HP=Maximum HP
-攻撃速度=Attack speed
-制空範囲=Air control range
+火力=火力
+射程=射程
+連射性能=连射性能
+必要素材=必要素材
+速度性能=速度性能
+最大HP=最大HP
+攻撃速度=攻击速度
+制空範囲=制空范围
 
 
 
-機能換装=Function Replace
-基本型=Basic
-機能拡張=Enhanced
-武装換装=Retrofit
-改良型=Improved
-試作型=Prototype
-強化型=Reinforced
+機能換装=机能换装
+基本型=基本型
+機能拡張=机能扩张
+武装換装=武装换装
+改良型=改良型
+試作型=试做型
+強化型=强化型
 プロト=Proto
 テスト=Test
 カスタム=Custom
@@ -799,9 +799,9 @@ SPスキルボタン=SP skill button
 引き継ぎIDとパスワードを入力してデータを引き継ぎます=Enter the transfer ID and password \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nto transfer the data
 データ引き継ぎ=Data transfer
 
-月=Month
-年=Year
-西暦=AD
+月=月
+年=年
+西暦=公元
 ゲーム内で設定した誕生年月=Birth date set in the game
 現在のプレイヤーレベル※必須=Current player level * Required
 プレイヤー名(ゲーム内で使用していたもの)※必須=Player name (the one used in the game) * Required
@@ -829,10 +829,10 @@ sr:"引き継ぎIDの再発行は\n(?<date>.+)以降まで出来ません"="You 
 ▲オンライン=▲Online
 ▲新着順=▲Newest
 
-sr:"オフライン：(?<num_i>[0-9]+)日"=Offline: ${num_i} d. ago
-sr:"オフライン：(?<num_i>[0-9]+)日前"=Offline: ${num_i} d. ago
-sr:"オフライン：(?<num_i>[0-9]+)時間前"=Offline: ${num_i} h. ago
-sr:"オフライン：(?<num_i>[0-9]+)分前"=Offline: ${num_i} m. ago
+sr:"オフライン：(?<num_i>[0-9]+)日"=Offline: ${num_i} 天
+sr:"オフライン：(?<num_i>[0-9]+)日前"=Offline: ${num_i} 天前
+sr:"オフライン：(?<num_i>[0-9]+)時間前"=Offline: ${num_i} 小时前
+sr:"オフライン：(?<num_i>[0-9]+)分前"=Offline: ${num_i} 分钟前
 
 
 フォロー数=Follows
@@ -844,13 +844,13 @@ sr:"オフライン：(?<num_i>[0-9]+)分前"=Offline: ${num_i} m. ago
 オンライン中=Online
 新着順=Newest
 
-フォロワー解除=Un-Follower
-フォロー解除=Unfollow
-フォローする=Follow
-メッセージ=Message
-プレイヤー詳細=Player details
-っしゃーせー=Reply
-検索する=Search
+フォロワー解除=取消-关注
+フォロー解除=取消关注
+フォローする=关注
+メッセージ=消息
+プレイヤー詳細=玩家详细信息
+っしゃーせー=回复
+検索する=搜索
 ※相互フォローになるとメッセージが利用できます=* Message is available when you follow each other.
 メッセージ内容を運営が確認する場合があります=The administrator may confirm the message contents
 メッセージを入力=Enter message
